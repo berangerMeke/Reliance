@@ -1,0 +1,339 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+<head>
+<!-- Basic Page Needs
+  ================================================== -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>RELIANCE EDUCAIVE</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<!-- Mobile Specific Metas
+  ================================================== -->
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<!-- CSS
+  ================================================== -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="vendor/prettyphoto/css/prettyPhoto.css" rel="stylesheet" type="text/css">
+<link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css"><!-- MAGINIFIC LIGHTBOX -->
+<link href="vendor/rs-plugin/css/settings.css" media="screen" rel="stylesheet" type="text/css"><!-- REVOLUTION SLIDER -->
+<link href="vendor/rs-plugin/css/navstylechange.css" media="screen" rel="stylesheet" type="text/css"><!-- REVOLUTION SLIDER -->
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
+<link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
+<!-- Color Style -->
+<link href="colors/color1.css" rel="stylesheet" type="text/css">
+<!-- SCRIPTS
+  ================================================== -->
+<script src="js/angular.js"></script>
+<!--<script src="js/angular-ui-router.js"></script>-->
+<!--<script src="js/state.js"></script>-->
+<script src="bower_components/angular-translate/angular-translate.js"></script>     
+<script src="js/translate.js"></script>  
+<script src="js/home-controller.js"></script>
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/modernizr.js"></script><!-- Modernizr -->    
+   
+</head>
+<body class="home" ng-app="gaeaApp" ng-controller="homeCtrl">
+<!--[if lt IE 7]>
+	<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+<![endif]-->
+<div class="body"> 
+	<!-- Start Site Header -->
+   
+	<header class="site-header">
+    	
+        
+        
+       
+            <div class="row" style="margin-left:0%;margin-right:0%;margin-top:0.5%"> 
+                <div class="col-md-4 col-sm-4" style="background:#4CADC5;text-align:center; padding-top:1%;padding-bottom:1%;color:#fff;font-size:120%; border-radius:5px 0px 0px 0px;">
+                    <b>
+                       <i>{{'statique_title' | translate}}</i> 
+                    </b>    
+                </div>
+                <div class="col-md-4 col-sm-4" style="background:#EAEACB;text-align:center; padding-top:9px;padding-bottom:7px;">   
+                        <marquee scrollamount="4" class="col-md-12 col-sm-12" style="background:#fff;text-align:center; width:100%;color:green;border-radius:20px; border:3px solid #4CADC5;font-size:120%;">{{'message' | translate}}</marquee>        
+                </div>
+                <div class="col-md-4 col-sm-4" style="background:#4CADC5;text-align:right; padding-top:1%;padding-bottom:1%; border-radius:0px 5px 0px 0px;">
+                    <span style="padding-right:3%;color:#fff;font-size:100%">{{'langue' | translate}}  : </span>
+                        <a href="#" ng-click="changeLanguage('en')">
+                            <img src="images/drapeau/angl.png" width="7%">
+                        </a>    
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#" ng-click="changeLanguage('fr')">
+                            <img src="images/drapeau/fran.png" width="6.5%">
+                        </a>
+                </div>
+            
+            </div>
+            
+        
+       <!-- <h2>{{ 'HEADLINE' | translate }}</h2>-->
+       <!-- <p>{{ 'INTRO_TEXT' | translate }}</p>-->
+        
+        
+   
+        
+    	<div class="lower-header" style="background:#F7F7F7">
+        	<div class="container for-navi">
+             	<h1 class="logo">
+                    <a href="" class="btn_sincrire_intro ">
+                                <img src="images/logo/logoRELia.png" alt="" style="width:17%">
+                    </a>
+                     &nbsp;
+                    <span style="color:forestgreen;font-size:47%;"> 
+                       <strong>LA RELIANCE EDUCATIVE</strong> 
+                    </span>
+             	</h1>
+                
+      	<!-- Main Navigation MENU-->
+              	<nav class="main-navigation">
+                  	<ul class="sf-menu">
+                        <li><a href="index.html">{{ 'home' | translate }}</a></li>
+      					<li><a href="projet_ecole.html">{{ 'institution' | translate }}</a></li>
+                          <li><a href="events.html">{{ 'school' | translate }}</a>
+                            <ul>
+                                <li><a href="events-grid.html">{{ 'cycle_school' | translate }}</a>
+                                    <ul>
+                                        <li><a href="maternelle.html">{{ 'nursly' | translate }}</a></li>
+                                        <li><a href="primaire.html">{{ 'primary' | translate }}</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="vie-ecole.html">{{ 'school_life' | translate }}</a></li>
+                                <li><a href="events-calendar.html">{{ 'reglement_interieur' | translate }}</a></li>
+                                <li><a href="resultats-examen.html">{{ 'resultats_examens' | translate }}</a></li>
+                                <li><a href="events-grid-sidebar.html">{{ 'parents_parlent' | translate }}</a></li>
+                                <li><a href="events-grid-sidebar.html">{{ 'association' | translate }}</a></li>
+                            </ul>
+                        </li>
+                         <li><a href="admission.html">{{ 'admission' | translate }}</a></li>
+                        <li><a href="contact2.html">{{ 'contact' | translate }}</a></li>
+                    </ul>
+                </nav>
+                <!-- Mobile Menu Trigger Icon -->
+                <a href="#" class="visible-sm visible-xs" id="menu-toggle"><i class="fa fa-bars"></i></a>
+            </div>
+        </div>
+        
+	</header>
+        
+	<!-- End Site Header -->
+    <!-- Start Hero Slider -->
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    	<div class="main" role="main" style="margin-top:15%">
+    	<div id="content" class="content full">
+    		<div style="margin-left:5.5%;margin-right:5.5%;">
+                
+                
+                
+                
+                
+<div class="double-border"></div>
+    <!-- Secondary Header -->
+    <div class="secondary-bar">
+    	<div class="container">
+        	<div class="row" style="text-align:center;">
+                        <div class="col-md-2">
+                        </div>
+                        <div class="col-md-8" style="color:#4CADC5;font-size:130%;">
+                           <strong>Activités extra scolaires</strong>
+                        </div>
+                        <div class="col-md-2">
+                    </div>
+              	</div>    
+            </div>
+        </div>
+               
+                
+        
+                
+    </br>
+                
+                
+        
+                
+    </br>           
+                
+           
+                
+    
+                
+    <div class="row" style="margin-left:-0.5%;margin-right:-0.5%;">
+        <div class="col-md-9 col-sm-12 col-xs-12" >
+            
+            <p>
+                De nombreuses activités et sorties pédagogiques sont proposées selon les niveaux d’enseignement 
+            </p>
+            
+            <p>
+               <img src="images/extra4.JPG" width="90%" > 
+            </p>
+            
+            </br>
+        
+            <p>
+                <img src="images/extra1.JPG" width="90%" >
+            </p>
+            <p>
+            toto
+            </p>
+        
+             </br>
+        
+            <p>
+                <img src="images/extra3.JPG" width="90%" >
+            </p>
+            <p>
+            toto
+            </p>
+        </div>
+    
+    
+         <div class="col-md-3 col-sm-12 col-xs-12">
+            <h3 class="title">Nos plus</h3>
+             <div class="row">
+                <div class="col-md-12">
+                    <img src="images/extra8.jpg" width="100%">
+                </div>
+             </div>
+             
+        
+            </br></br>
+    
+             <div class="row">
+                <div class="col-md-12" style="text-align:center;">
+                    <img src="images/extra9.jpg" width="100%">
+                </div>
+             </div>
+    
+            </br></br>
+    
+             <div class="row">
+                <div class="col-md-12" style="text-align:center;">
+                    <img src="images/extra7.jpg" width="100%">
+                </div>
+             </div>
+    
+            </br></br>
+    
+             <div class="row">
+                <div class="col-md-12" style="text-align:center;">
+                    <img src="images/extra6.jpg" width="100%">
+                </div>
+             </div>
+
+            </br></br>
+
+             <div class="row">
+                <div class="col-md-12" style="text-align:center;">
+                    <img src="images/extra5.jpg" width="100%">
+                </div>
+             </div>
+
+            </br></br>
+
+             <div class="row">
+                <div class="col-md-12" style="text-align:center;">
+                    <img src="images/extra4.JPG" width="100%">
+                </div>
+             </div>
+           
+    </div>
+    
+    
+    
+            
+        </div>            
+                
+       </br> </br> </br>            
+
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- End Featured Projects -->
+    <!-- Start Footer -->
+    <footer class="site-footer site-top-footer">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-md-3 col-sm-6 footer-widget widget text_widget">
+                	<h4 class="widgettitle">Meaning of Gaea</h4>
+                    <p>The name Gaea is a Greek baby name. In Greek the meaning of the name Gaea is: The earth. Mythological womanly personification of the earth and mother of the Titans.</p>
+                </div>
+            	<div class="col-md-3 col-sm-6 footer-widget widget instafeed_widget">
+                	<h4 class="widgettitle">Instagram Gallery</h4>
+                    <ul id="insta-widget" class="clearfix"></ul>
+                </div>
+            	<div class="col-md-3 col-sm-6 footer-widget widget twitter_widget">
+                	<h4 class="widgettitle">Twitter Feeds</h4>
+                    <div class="twitter-widget" data-tweets-count="1"></div>
+                </div>
+            	<div class="col-md-3 col-sm-6 footer-widget widget text_widget">
+                	<h4 class="widgettitle">Our Location</h4>
+                    <p>2500 CityWest Blvd, Suite 300<br>Houston, Texas, 77042</p>
+					<p><strong>Contact</strong><br><a href="mailto:help@gaea.org">help@gaea.org</a><br>1 (888) 411-8111</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="site-footer site-bottom-footer">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-md-4 col-sm-4">
+                	<p>&copy; 2014 Gaea - Environment Template</p>
+                </div>
+            	<div class="col-md-8 col-sm-8">
+                	<ul class="footer-nav">
+                    	<li><a href="index.html">Home</a></li>
+                    	<li><a href="about.html">About</a></li>
+                    	<li><a href="contact.html">Contact</a></li>
+                    	<li><a href="donate.html">Donate</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+  	<a id="back-to-top"><i class="fa fa-angle-double-up"></i></a> 
+</div>
+<!--<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>--> <!-- Jquery Library Call -->
+<script src="vendor/prettyphoto/js/prettyphoto.js"></script> <!-- PrettyPhoto Plugin -->
+<script src="js/helper-plugins.js"></script> <!-- Helper Plugins -->
+<script src="js/bootstrap.js"></script> <!-- UI -->
+<script src="js/init.js"></script> <!-- All Scripts -->
+<script src="vendor/flexslider/js/jquery.flexslider.js"></script> <!-- FlexSlider --> 
+<script src="vendor/rs-plugin/js/jquery.themepunch.plugins.min.js"></script> 
+<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script> 
+<script src="js/revolution-slider-init.js"></script> <!-- Revolutions Slider Intialization --> 
+<script src="vendor/countdown/js/jquery.countdown.min.js"></script> <!-- Jquery Timer --> 
+<script src="js/stat.js"></script>     
+</body>
+</html>

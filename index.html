@@ -1,0 +1,669 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+<head>
+<!-- Basic Page Needs
+  ================================================== -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>RELIANCE EDUCAIVE</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<!-- Mobile Specific Metas
+  ================================================== -->
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<!-- CSS
+  ================================================== -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="vendor/prettyphoto/css/prettyPhoto.css" rel="stylesheet" type="text/css">
+<link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css"><!-- MAGINIFIC LIGHTBOX -->
+<link href="vendor/rs-plugin/css/settings.css" media="screen" rel="stylesheet" type="text/css"><!-- REVOLUTION SLIDER -->
+<link href="vendor/rs-plugin/css/navstylechange.css" media="screen" rel="stylesheet" type="text/css"><!-- REVOLUTION SLIDER -->
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
+<link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
+<!-- Color Style -->
+<link href="colors/color1.css" rel="stylesheet" type="text/css">
+<!-- SCRIPTS
+  ================================================== -->
+<script src="js/angular.js"></script>
+<!--<script src="js/angular-ui-router.js"></script>-->
+<!--<script src="js/state.js"></script>-->
+<script src="bower_components/angular-translate/angular-translate.js"></script>     
+<script src="js/translate.js"></script>  
+<script src="js/home-controller.js"></script>
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/modernizr.js"></script><!-- Modernizr -->    
+   
+</head>
+<body class="home" ng-app="gaeaApp" ng-controller="homeCtrl">
+<!--[if lt IE 7]>
+	<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+<![endif]-->
+<div class="body"> 
+	<!-- Start Site Header -->
+   
+	<header class="site-header">
+    	
+        
+        
+       
+            <div class="row" style="margin-left:0%;margin-right:0%;margin-top:0.5%"> 
+                <div class="col-md-4 col-sm-4" style="background:#4CADC5;text-align:center; padding-top:1%;padding-bottom:1%;color:#fff;font-size:120%; border-radius:5px 0px 0px 0px;">
+                    <b>
+                       <i>{{'statique_title' | translate}}</i> 
+                    </b>    
+                </div>
+                <div class="col-md-4 col-sm-4" style="background:#EAEACB;text-align:center; padding-top:9px;padding-bottom:7px;">   
+                        <marquee scrollamount="4" class="col-md-12 col-sm-12" style="background:#fff;text-align:center; width:100%;color:green;border-radius:20px; border:3px solid #4CADC5;font-size:120%;">{{'message' | translate}}</marquee>        
+                </div>
+                <div class="col-md-4 col-sm-4" style="background:#4CADC5;text-align:right; padding-top:1%;padding-bottom:1%; border-radius:0px 5px 0px 0px;">
+                        <a href="#" ng-click="changeLanguage('en')" style="padding-right:3%;color:#fff;font-size:100%;text-decoration:none;">English  : 
+                         &nbsp;   <img src="images/drapeau/angl.png" width="7%">
+                        </a>    
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#" ng-click="changeLanguage('fr')" style="padding-right:3%;color:#fff;font-size:100%;text-decoration:none;">Français  :
+                            &nbsp;<img src="images/drapeau/fran.png" width="6.5%">
+                        </a>
+                </div>
+            
+            </div>
+            
+        
+       <!-- <h2>{{ 'HEADLINE' | translate }}</h2>-->
+       <!-- <p>{{ 'INTRO_TEXT' | translate }}</p>-->
+        
+        
+   
+        
+    	<div class="lower-header">
+        	<div class="container for-navi">
+             	<h1 class="logo">
+                    <a href="" class="btn_sincrire_intro ">
+                                <img src="images/logo/logoRELia.png" alt="" style="width:17%">
+                    </a>
+                     &nbsp;
+                    <span style="color:forestgreen;font-size:47%;"> 
+                       <strong>LA RELIANCE EDUCATIVE</strong> 
+                    </span>
+             	</h1>
+                
+              	<!-- Main Navigation MENU-->
+              	<nav class="main-navigation">
+                  	<ul class="sf-menu">
+                        <li><a href="index.html">{{ 'home' | translate }}</a></li>
+      					<li><a href="projet_ecole.html">{{ 'institution' | translate }}</a></li>
+                          <li><a href="events.html">{{ 'school' | translate }}</a>
+                            <ul>
+                                <li><a href="events-grid.html">{{ 'cycle_school' | translate }}</a>
+                                    <ul>
+                                        <li><a href="maternelle.html">{{ 'nursly' | translate }}</a></li>
+                                        <li><a href="primaire.html">{{ 'primary' | translate }}</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="vie-ecole.html">{{ 'school_life' | translate }}</a></li>
+                                <li><a href="events-calendar.html">{{ 'reglement_interieur' | translate }}</a></li>
+                                <li><a href="resultats-examen.html">{{ 'resultats_examens' | translate }}</a></li>
+                                <li><a href="activite-extra-scolaire.html">{{ 'activites_extra_scolaires' | translate }}</a></li>
+                                <li><a href="events-grid-sidebar.html">{{ 'association' | translate }}</a></li>
+                            </ul>
+                        </li>
+                         <li><a href="admission.html">{{ 'admission' | translate }}</a></li>
+                        <li><a href="contact2.html">{{ 'contact' | translate }}</a></li>
+                    </ul>
+                </nav>
+                <!-- Mobile Menu Trigger Icon -->
+                <a href="#" class="visible-sm visible-xs" id="menu-toggle"><i class="fa fa-bars"></i></a>
+            </div>
+        </div>
+        
+	</header>
+        
+	<!-- End Site Header -->
+    <!-- Start Hero Slider -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    <!--<div class="container">-->
+    <div style="margin-left:4%;margin-right:4%;margin-top:4%">
+    <div class="hero-slider">
+      <div class="slider-rev-cont">
+          <div class="tp-banner-container">
+            <div class="tp-limited">
+              <ul >
+                <!-- SLIDE  -->
+                <li data-delay="5000" data-masterspeed="600" data-slotamount="7" data-transition="fade"> 
+                  <!-- MAIN IMAGE --> 
+                  <img src="{{slide1}}" alt="">  
+                  
+                  <!-- LAYER NR. 1 -->
+                  <div class="tp-caption customin customout label-danger number-block"
+                        data-x="center"
+						data-hoffset="-33"
+                        data-y="center"
+						data-voffset="-70"
+                    
+                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:141;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                    
+                        data-start="500"
+                        data-speed="600"
+                        data-easing="Linear.easeNone"
+                    
+                        data-endspeed="600"
+                        data-endeasing="Linear.easeNone"
+                        >9
+                    </div>
+        			<!-- LAYER NR. 2 -->
+                  <div class="tp-caption customin customout label-danger number-block"
+                        data-x="center"
+						data-hoffset="33"
+                        data-y="center"
+						data-voffset="-70"
+                    
+                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:141;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                    
+                        data-start="800"
+                        data-speed="600"
+                        data-easing="Linear.easeNone"
+                    
+                        data-endspeed="600"
+                        data-endeasing="Linear.easeNone"
+                        >6
+                    </div>
+                  <!-- LAYER NR. 3 -->
+					<div class="tp-caption text-align-center h2 sfr whiter tp-resizeme"
+						data-x="center"
+						data-hoffset="0"
+						data-y="center"
+						data-voffset="55"
+						data-speed="600"
+						data-start="1800"
+						data-easing="Back.easeInOut"
+						data-endspeed="300">
+                         {{Slide1titre1}}<br><h3 style="color:#fff;">{{Slide1titre2}} </h3> 
+					</div>
+                  <!-- LAYER NR. 4 -->
+					<div class="tp-caption fade whiter tp-resizeme"
+						data-x="center"
+						data-hoffset="0"
+						data-y="center"
+						data-voffset="155"
+						data-speed="1000"
+						data-start="2800"
+						data-easing="Back.easeInOut"
+						data-endspeed="300">
+                        <a href="join.html" class="btn btn-lg btn-default">Save them</a>
+					</div>
+                </li>
+                <!-- SLIDE  -->
+                <li data-delay="5000" data-masterspeed="600" data-slotamount="7" data-transition="fade"> 
+                  <!-- MAIN IMAGE --> 
+                  <img src="{{slide2}}" alt=""> 
+                  <!-- LAYER NR. 1 -->
+					<div class="tp-caption sfr whiter h4 tp-resizeme"
+						data-x="right"
+						data-hoffset="-15"
+						data-y="center"
+						data-voffset="-80"
+						data-speed="1000"
+						data-start="500"
+						data-easing="Back.easeInOut"
+						data-endspeed="300">
+                        Green
+					</div>
+                  <!-- LAYER NR. 2 -->
+					<div class="tp-caption sfr whiter h2 tp-resizeme"
+						data-x="right"
+						data-hoffset="-20"
+						data-y="center"
+						data-voffset="-40"
+						data-speed="1000"
+						data-start="600"
+						data-easing="Back.easeInOut"
+						data-endspeed="300">
+                        is the power
+					</div>
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption customin whiter customout tp-resizeme"
+                        data-x="right"
+                          data-hoffset="-20"
+                        data-y="center"
+                          data-voffset="20"
+                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:100% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                    
+                        data-start="1100"
+                        data-speed="600"
+                        data-easing="Linear.easeNone"
+                        data-endspeed="600"
+                        data-endeasing="Linear.easeNone"
+                        ><hr class="md">
+                    </div>
+                    <!-- LAYER NR. 4 -->
+					<div class="tp-caption sfr whiter para text-align-right tp-resizeme"
+						data-x="right"
+						data-hoffset="-20"
+						data-y="center"
+						data-voffset="80"
+						data-speed="1400"
+						data-start="1000"
+						data-easing="Back.easeInOut"
+						data-endspeed="300">
+                        {{Slide2titre1}}<br>{{Slide2titre2}}<br>{{Slide2detail}}
+					</div>
+                  <!-- LAYER NR. 5 -->
+					<div class="tp-caption sfr whiter tp-resizeme"
+						data-x="right"
+						data-hoffset="-20"
+						data-y="center"
+						data-voffset="160"
+						data-speed="1000"
+						data-start="1800"
+						data-easing="Back.easeInOut"
+						data-endspeed="300">
+                        <a href="donate.html" class="btn btn-lg btn-default">Support</a>
+					</div>
+                </li>
+                <!-- SLIDE  -->
+                <li data-delay="5000" data-masterspeed="600" data-slotamount="7" data-transition="fade"> 
+                  <!-- MAIN IMAGE --> 
+                  <img src="{{slide3}}" alt="">
+                  <!-- LAYER NR. 1 -->
+					<div class="tp-caption sfr whiter h4 tp-resizeme"
+						data-x="right"
+						data-hoffset="-15"
+						data-y="center"
+						data-voffset="-80"
+						data-speed="1000"
+						data-start="500"
+						data-easing="Back.easeInOut"
+						data-endspeed="300">
+                        Water
+					</div>
+                  <!-- LAYER NR. 2 -->
+					<div class="tp-caption sfr whiter h2 tp-resizeme"
+						data-x="right"
+						data-hoffset="-20"
+						data-y="center"
+						data-voffset="-40"
+						data-speed="1000"
+						data-start="600"
+						data-easing="Back.easeInOut"
+						data-endspeed="300">
+                        for everyone
+					</div>
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption customin whiter customout tp-resizeme"
+                        data-x="right"
+                          data-hoffset="-20"
+                        data-y="center"
+                          data-voffset="20"
+                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:100% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                    
+                        data-start="1100"
+                        data-speed="600"
+                        data-easing="Linear.easeNone"
+                        data-endspeed="600"
+                        data-endeasing="Linear.easeNone"
+                        ><hr class="md">
+                    </div>
+                    <!-- LAYER NR. 4 -->
+					<div class="tp-caption sfr whiter para text-align-right tp-resizeme"
+						data-x="right"
+						data-hoffset="-20"
+						data-y="center"
+						data-voffset="80"
+						data-speed="1400"
+						data-start="1000"
+						data-easing="Back.easeInOut"
+						data-endspeed="300">
+                        {{Slide3titre1}}<br>{{Slide3titre2}}<br>{{Slide3detail}}
+					</div>
+                  <!-- LAYER NR. 5 -->
+					<div class="tp-caption sfr whiter tp-resizeme"
+						data-x="right"
+						data-hoffset="-20"
+						data-y="center"
+						data-voffset="160"
+						data-speed="1000"
+						data-start="1800"
+						data-easing="Back.easeInOut"
+						data-endspeed="300">
+                        <a href="donate.html" class="btn btn-lg btn-default">Give help</a>
+					</div>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+   
+    
+  
+    
+    <!-- End Hero Slider -->
+    <div class="double-border"></div>
+    <!-- Start Lead Block -->
+    <div class="lead-block">
+    	<div class="container">
+            <div class="tabs">
+                <div class="nav-tabs-bar">
+                    <ul class="nav nav-tabs">
+                        <li class="active"> <a data-toggle="tab" href="#sampletab1">Présentation</a> </li>
+                        <!--<li> <a data-toggle="tab" href="#sampletab2">Why you should join us</a> </li>-->
+                    </ul>
+                 
+                </div>
+                <div class="tab-content">
+                    <div id="sampletab1" class="tab-pane active">
+                        <div class="row">
+                        	<div class="col-md-8 col-sm-8" style="text-align:justify;">
+                        		<p style="color:#4CADC5;font-size:100%;text-align:center;"><strong>COMPLEXE SCOLAIRE BILINGUE <span style="color:crimson">LA RELIANCE ÉDUCATIVE</span></strong></p>
+                                <p>Bienvenue au<strong style="color:#4CADC5"> Complexe scolaire bilingue la <span style="color:forestgreen">Réliance Éducative</span> </strong> , établissement d’enseignement privé, situé à Douala-Cameroun, dans l'arrondissement de Douala 4ème (Bonabéri) par "Quatre étages" au lieu dit "Barrière Washington".</p>
+
+<p>Notre établissement est composé des cycles maternelle et primaire bilingues(Français/Anglais). Fondées en 2012, cet institution à été créée pour offrir un enseignement de qualité dans un cadre privilégié. Filles et garçons sont accueillis dans un cadre familial. Ils y apprennent en toute sérénité tout en s'épanouissant.</p>
+
+                                <p>Dès leur entrée en primaire, les élèves profitent entre autres d'une <strong style="color:#4CADC5"> initiation théorique et pratique à l’informatique </strong>. De nombreuses activités récréatives sont proposées permettant de créer un climat agréable et convivial, ainsi qu’un bon équilibre de vie. </p>                               
+
+                                <p style="font-size:125%;color:#4CADC5;">Réussite, épanouissement, mérite, écoute, font partie de nos maîtres-mots.</p>
+                                
+                                
+Des valeurs essentielles pour apprendre mieux et qui sont les clés de la réussite pour la poursuite des études. Au <strong style="color:#4CADC5"> Complexe scolaire bilingue la <span style="color:forestgreen">Réliance Éducative</span> </strong>, l’élève est au centre de notre pédagogie. Grâce à un suivi personnalisé, l'élève est écouté, guidé, orienté et comprend mieux ses objectifs. </p>
+
+                            <p style="color:#4CADC5">COMPOSEZ LE <span style="color:crimson"> 675 68 67 26<span style="color:#4CADC5"> / </span>697 80 50 36<span style="color:#4CADC5"> / </span>677 32 28 71</span> POUR NOUS JOINDRE.</p>
+
+<p>Si vous recherchez pour votre enfant un établissement privé d’enseignement où il pourra apprendre dans les meilleures conditions, dans la ville de Douala et notamment à Bonabéri, n'hésitez pas à nous appeler au 675 68 67 26 / 697 80 50 36 / 677 32 28 71.</p>
+
+
+                                <hr class="md"><div class="clearfix"></div>
+                                <!--<a href="#" class="btn btn-lg btn-primary"><i class="fa fa-cloud-download"></i> Download Brochure</a>-->
+                            </div>
+                            <div class="col-md-4 col-sm-4" style="text-align:center;">
+                            	<!--<img src="images/img14.jpg" alt="" style="margin-top:-40px">-->
+                                <iframe width="100%"  
+									src="https://www.youtube.com/embed/x6w1eKP0_ls? &autoplay=1&replay&loop=1" frameborder="0" 									allowfullscreen>
+								</iframe>
+                                
+                                
+                                </br>
+                        
+                        
+                        <object width="300" height="140"><param name="movie" value=
+"http://www.youtube.com/v/Hg49a8CjRMc?version=0 &autoplay=1&replay&loop=1" />
+<param name="wmode" value="transparent" />
+<embed src=
+"http://www.youtube.com/v/Hg49a8CjRMc?ve … y=1&loop=1"
+type="application/x-shockwave-flash" wmode="transparent" width=
+"300" height="140" /></object> 
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div id="sampletab2" class="tab-pane">
+                    	<div class="row">
+                        	<div class="col-md-4 col-sm-4">
+                            	<div class="icon-block"><span class="icon label-info"><i class="fa fa-globe"></i></span>
+                               	<h2>To make the planet lively</h2>
+                        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel.</p>
+                               	</div>
+                            </div>
+                        	<div class="col-md-4 col-sm-4">
+                            	<div class="icon-block"><span class="icon label-warning"><i class="fa fa-umbrella"></i></span>
+                               	<h2>To save the Rain Water</h2>
+                        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel.</p>
+                               	</div>
+                            </div>
+                        	<div class="col-md-4 col-sm-4">
+                            	<div class="icon-block"><span class="icon label-success"><i class="fa fa-tree"></i></span>
+                               	<h2>To make Forests Greener</h2>
+                        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel.</p>
+                               	</div>
+                            </div>
+                            <div class="text-align-center">
+                            	<div class="spacer-20"></div>
+                            	<a href="#" class="btn btn-primary btn-lg secondary-color-bg">Join now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Lead Block -->
+  	<!-- Start Content -->
+  	<div class="main" role="main">
+    	<div id="content" class="content full">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-md-8 border-col">
+                        <!-- Latest Posts -->
+                        <div class="latest-posts">
+                            <h3 class="title" style="color:#4CADC5"><i class="fa fa-folder"></i> Apprendre, c'est découvrir</h3>
+                            <ul class="posts-listing">
+                            	<li class="post-list-item format-standard">
+                                	<div class="row">
+                                        <div class="col-md-5 col-sm-6" data-appear-animation="fadeInLeft" data-appear-animation-delay="1">
+                                			<a href="blog-post.html" class="media-box"><img src="images/RelPhotos/rel6.png"S alt="" class="img-thumbnail post-thumb"></a>
+                                        </div>
+                                    	<div class="col-md-7 col-sm-6" data-appear-animation="fadeInLeft" data-appear-animation-delay="1">
+                                			<h3 class="post-title"><a href="blog-post.html"style="color:forestgreen">Le programme Bilingue</a></h3>
+                                    		<!--<span class="post-time meta-data">Wed 20th July, 14</span>-->
+                                    		<p class="post-excerpt">Grâce à une pédagogie active, dès la petite section de maternelle, les enfants apprennent l’anglais avec plaisir, encadrés par des enseignants certifiés et natifs.</p>
+                                       	</div>
+                                   	</div>
+                                </li>
+                            	<li class="post-list-item format-standard">
+                                	<div class="row">
+                                        <div class="col-md-5 col-sm-6">
+                                			<a href="blog-post.html" class="media-box"><img src="images/RelPhotos/maternel6.png" alt="" class="img-thumbnail post-thumb"></a>
+                                        </div>
+                                    	<div class="col-md-7 col-sm-6">
+                                			<h3 class="post-title"><a href="blog-post.html" style="color:forestgreen">L'enfant précoce</a></h3>
+                                    		<!--<span class="post-time meta-data">Sun 17th July, 14</span>-->
+                                    		<p class="post-excerpt">Un enfant à haut potentiel ne se résume pas à un QI. C’est notamment, un fonctionnement intellectuel différent et une hypersensibilité exacerbés..</p>
+                                       	</div>
+                                   	</div>
+                                </li>
+                            </ul>
+                            <a href="blog.html" class="btn toblog btn-default pull-right">Visit Blog</a>
+                        </div>
+                  	</div>
+                    <!-- Sidebar -->
+                    <div class="col-md-4 sidebar right-sidebar">
+                    	<div class="widget sidebar-widget upcoming-events-widget">
+                            <h3 class="title widgettitle" style="color:#4CADC5"><i class="fa fa-calendar"></i> évènements à venir</h3>
+                            <ul class="upcoming-events">
+                            	<li data-appear-animation="fadeInRight" data-appear-animation-delay="1">
+                                	<img src="images/img13.jpg" alt="" class="img-thumbnail event-thumb">
+                                    <span class="event-date">
+                                    	<span class="day">10</span>
+                                        <span class="monthyear">Mai 2017</span>
+                                   	</span>
+                                    <div class="event-excerpt">
+                                        <div class="event-cats meta-data"><a href="event-grid.html">Examen</a></div>
+                                    	<h5 class="event-title"><a href="single-event.html">5ème séquence</a></h5>
+                                    	<p class="event-location">Le 10 Mais 2017 </p>
+                                    </div>
+                               	</li>
+                            	<li data-appear-animation="fadeInRight" data-appear-animation-delay="1">
+                                	<img src="images/img14.jpg" alt="" class="img-thumbnail event-thumb">
+                                    <span class="event-date">
+                                    	<span class="day">20</span>
+                                        <span class="monthyear">Aug, 14</span>
+                                   	</span>
+                                    <div class="event-excerpt">
+                                        <div class="event-cats meta-data"><a href="event-grid.html">Volunteers</a></div>
+                                    	<h5 class="event-title"><a href="single-event.html">National Volunteer week</a></h5>
+                                    	<p class="event-location"><i class="fa fa-map-marker"></i> Parc Orsay, Batiment Sequoia</p>
+                                    </div>
+                               	</li>
+                            	<li data-appear-animation="fadeInRight" data-appear-animation-delay="1">
+                                	<img src="images/img15.jpg" alt="" class="img-thumbnail event-thumb">
+                                    <span class="event-date">
+                                    	<span class="day">21</span>
+                                        <span class="monthyear">Aug, 14</span>
+                                   	</span>
+                                    <div class="event-excerpt">
+                                        <div class="event-cats meta-data"><a href="event-grid.html">Cleanliness</a></div>
+                                    	<h5 class="event-title"><a href="single-event.html">Business cleanup day</a></h5>
+                                    	<p class="event-location"><i class="fa fa-map-marker"></i> Parc Orsay, Batiment Sequoia</p>
+                                    </div>
+                               	</li>
+                            	<li data-appear-animation="fadeInRight" data-appear-animation-delay="1">
+                                	<img src="images/img17.jpg" alt="" class="img-thumbnail event-thumb">
+                                    <span class="event-date">
+                                    	<span class="day">22</span>
+                                        <span class="monthyear">Aug, 2016</span>
+                                   	</span>
+                                    <div class="event-excerpt">
+                                        <div class="event-cats meta-data"><a href="event-grid.html">World</a></div>
+                                    	<h5 class="event-title"><a href="single-event.html">World's park day</a></h5>
+                                    	<p class="event-location"><i class="fa fa-map-marker"></i> Parc Orsay, Batiment Sequoia</p>
+                                    </div>
+                               	</li>
+                            </ul>
+                            <div class="upcoming-events-footer">
+                            	<hr class="sm">
+                                <a href="events.html">See all events</a>
+                            </div>
+                        </div>
+                    </div>
+              	</div>
+          	</div>
+        </div>
+   	</div>
+    <!-- Our Partners -->
+  <!--  <div class="our-partners">
+    	<div class="container">
+        	<h2 class="title"><small>Mission</small>Partners</h2>
+        	<div class="row">
+            	<div class="col-md-3">
+                	<p class="margin-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem.</p>
+                </div>
+            	<div class="col-md-9">
+                	<ul class="partner-logos">
+                    	<li data-appear-animation="fadeInDown" data-appear-animation-delay="10"><img src="images/homeSlide/1.JPG"  width="30%" alt=""></li>
+                    	<li data-appear-animation="fadeInDown" data-appear-animation-delay="200"><img src="images/homeSlide/2.JPG" width="30%" alt=""></li>
+                    	<li data-appear-animation="fadeInDown" data-appear-animation-delay="400"><img src="images/homeSlide/3.JPG"  width="30%" alt=""></li>
+                    	<li data-appear-animation="fadeInDown" data-appear-animation-delay="600"><img src="images/homeSlide/4.JPG"  width="30%" alt=""></li>
+                    	<li data-appear-animation="fadeInDown" data-appear-animation-delay="800"><img src="images/homeSlide/5.JPG"  width="30%" alt=""></li>
+                    </ul>
+                </div>
+          	</div>
+       	</div>-->
+    </div>
+    <!-- Start Featured Projects -->
+    <div class="featured-projects">
+    	<div class="container">
+            <span  class="btn toblog btn-default pull-right">Activités en Salle Informatique</span>
+        	<h2><small><i style="color:forestgreen">Technologie de l'Information et la Comunication</i></small> TIC</h2>
+        	<div class="row"> 
+            	<div class="col-md-4 col-sm-4 format-standard">
+                	<a href="single-project.html" class="featured-project-block media-box">
+                    	<img src="images/homeSlide/5.JPG" alt="" class="featured-image">
+                        <span class="project-overlay">
+                        	<span class="project-title">Life of the whales</span>
+                        	<span class="project-cat">Oceans</span>
+                        </span>
+                    </a>
+                </div>
+            	<div class="col-md-4 col-sm-4 format-standard">
+                	<a href="single-project.html" class="featured-project-block media-box">
+                    	<img src="images/homeSlide/3.JPG" alt="" class="featured-image">
+                        <span class="project-overlay">
+                        	<span class="project-title">We will miss them</span>
+                        	<span class="project-cat">Forests</span>
+                        </span>
+                    </a>
+                </div>
+            	<div class="col-md-4 col-sm-4 format-standard">
+                	<a href="single-project.html" class="featured-project-block media-box">
+                    	<img src="images/homeSlide/4.JPG" alt="" class="featured">
+                        <span class="project-overlay">
+                        	<span class="project-title">How to feed the world</span>
+                        	<span class="project-cat">Food</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Featured Projects -->
+    <!-- Start Footer -->
+    <footer class="site-footer site-top-footer">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-md-3 col-sm-6 footer-widget widget text_widget">
+                	<h4 class="widgettitle">Meaning of Gaea</h4>
+                    <p>The name Gaea is a Greek baby name. In Greek the meaning of the name Gaea is: The earth. Mythological womanly personification of the earth and mother of the Titans.</p>
+                </div>
+            	<div class="col-md-3 col-sm-6 footer-widget widget instafeed_widget">
+                	<h4 class="widgettitle">Instagram Gallery</h4>
+                    <ul id="insta-widget" class="clearfix"></ul>
+                </div>
+            	<div class="col-md-3 col-sm-6 footer-widget widget twitter_widget">
+                	<h4 class="widgettitle">Twitter Feeds</h4>
+                    <div class="twitter-widget" data-tweets-count="1"></div>
+                </div>
+            	<div class="col-md-3 col-sm-6 footer-widget widget text_widget">
+                	<h4 class="widgettitle">Our Location</h4>
+                    <p>2500 CityWest Blvd, Suite 300<br>Houston, Texas, 77042</p>
+					<p><strong>Contact</strong><br><a href="mailto:help@gaea.org">help@gaea.org</a><br>1 (888) 411-8111</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="site-footer site-bottom-footer">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-md-4 col-sm-4">
+                	<p>&copy; 2014 Gaea - Environment Template</p>
+                </div>
+            	<div class="col-md-8 col-sm-8">
+                	<ul class="footer-nav">
+                    	<li><a href="index.html">Home</a></li>
+                    	<li><a href="about.html">About</a></li>
+                    	<li><a href="contact.html">Contact</a></li>
+                    	<li><a href="donate.html">Donate</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+  	<a id="back-to-top"><i class="fa fa-angle-double-up"></i></a> 
+</div>
+<!--<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>--> <!-- Jquery Library Call -->
+<script src="vendor/prettyphoto/js/prettyphoto.js"></script> <!-- PrettyPhoto Plugin -->
+<script src="js/helper-plugins.js"></script> <!-- Helper Plugins -->
+<script src="js/bootstrap.js"></script> <!-- UI -->
+<script src="js/init.js"></script> <!-- All Scripts -->
+<script src="vendor/flexslider/js/jquery.flexslider.js"></script> <!-- FlexSlider --> 
+<script src="vendor/rs-plugin/js/jquery.themepunch.plugins.min.js"></script> 
+<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script> 
+<script src="js/revolution-slider-init.js"></script> <!-- Revolutions Slider Intialization --> 
+<script src="vendor/countdown/js/jquery.countdown.min.js"></script> <!-- Jquery Timer --> 
+<script src="js/stat.js"></script>     
+</body>
+</html>
