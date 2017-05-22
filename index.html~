@@ -357,8 +357,8 @@
                                 <!--<a href="#" class="btn btn-lg btn-primary"><i class="fa fa-cloud-download"></i> Download Brochure</a>-->
                             </div>
                             <div class="col-md-5 col-sm-5" style="text-align:center;">               
-                             <!--   <iframe width="500" height="315" frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/x6w1eKP0_ls?&autoplay=1&replay&loop=1">
-                                </iframe> -->
+                                <iframe width="500" height="315" frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/x6w1eKP0_ls?&autoplay=1&replay&loop=1">
+                                </iframe>
                                
                             </div>
                         </div>
