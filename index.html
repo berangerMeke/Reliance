@@ -94,7 +94,7 @@
                   	<ul class="sf-menu">
                         <li><a href="index.html">{{ 'home' | translate }}</a></li>
       					<li><a href="projet_ecole.html">{{ 'institution' | translate }}</a></li>
-                          <li><a href="events.html">{{ 'school' | translate }}</a>
+                          <li><a href="">{{ 'school' | translate }}</a>
                             <ul>
                                 <li><a href="">{{ 'cycle_school' | translate }}</a>
                                     <ul>
@@ -102,11 +102,10 @@
                                         <li><a href="primaire.html">{{ 'primary' | translate }}</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="vie-ecole.html">{{ 'school_life' | translate }}</a></li>
                                 <li><a href="">{{ 'reglement_interieur' | translate }}</a></li>
                                 <li><a href="resultats-examen.html">{{ 'resultats_examens' | translate }}</a></li>
                                 <li><a href="activite-extra-scolaire.html">{{ 'activites_extra_scolaires' | translate }}</a></li>
-                                <li><a href="events-grid-sidebar.html">{{ 'association' | translate }}</a></li>
+                                <li><a href="">{{ 'association' | translate }}</a></li>
                             </ul>
                         </li>
                          <li><a href="admission.html">{{ 'admission' | translate }}</a></li>
@@ -357,8 +356,13 @@
                                 <!--<a href="#" class="btn btn-lg btn-primary"><i class="fa fa-cloud-download"></i> Download Brochure</a>-->
                             </div>
                             <div class="col-md-5 col-sm-5" style="text-align:center;">               
-                             <!--   <iframe width="500" height="315" frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/x6w1eKP0_ls?&autoplay=1&replay&loop=1">
-                                </iframe> -->
+                                <iframe width="70%" height="100%" frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/x6w1eKP0_ls?&autoplay=1&replay&loop=1">
+                                </iframe>
+                                
+                                </br> </br>
+                                <img src="images/RelPhotos/rel8.png" width="70%">
+                                </br> </br>
+                                <img src="images/RelPhotos/rel14.png" width="70%">
                                
                             </div>
                         </div>
@@ -367,20 +371,20 @@
                     	<div class="row">
                         	<div class="col-md-4 col-sm-4">
                             	<div class="icon-block"><span class="icon label-info"><i class="fa fa-globe"></i></span>
-                               	<h2>To make the planet lively</h2>
-                        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel.</p>
+                               	<h2>To make the planet lively{{ 'texte8' | translate }}</h2>
+                        		<p>{{ 'texte8' | translate }}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel.</p>
                                	</div>
                             </div>
                         	<div class="col-md-4 col-sm-4">
                             	<div class="icon-block"><span class="icon label-warning"><i class="fa fa-umbrella"></i></span>
-                               	<h2>To save the Rain Water</h2>
-                        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel.</p>
+                               	<h2>To save the Rain Water{{ 'texte8' | translate }}</h2>
+                        		<p>{{ 'texte8' | translate }}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel.</p>
                                	</div>
                             </div>
                         	<div class="col-md-4 col-sm-4">
                             	<div class="icon-block"><span class="icon label-success"><i class="fa fa-tree"></i></span>
-                               	<h2>To make Forests Greener</h2>
-                        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel.</p>
+                               	<h2>To make Forests Greener{{ 'texte8' | translate }}</h2>
+                        		<p>{{ 'texte8' | translate }}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel.</p>
                                	</div>
                             </div>
                             <div class="text-align-center">
@@ -402,93 +406,92 @@
                 	<div class="col-md-8 border-col">
                         <!-- Latest Posts -->
                         <div class="latest-posts">
-                            <h3 class="title" style="color:#4CADC5"><i class="fa fa-folder"></i> Apprendre, c'est découvrir</h3>
+                            <h3 class="title" style="color:#4CADC5"><i class="fa fa-folder"></i> {{ 'apprendre_grandir' | translate }}</h3>
                             <ul class="posts-listing">
-                            	<li class="post-list-item format-standard">
+                                
+                                	<li class="post-list-item format-standard">
                                 	<div class="row">
-                                        <div class="col-md-5 col-sm-6" data-appear-animation="fadeInLeft" data-appear-animation-delay="1">
-                                			<a href="blog-post.html" class="media-box"><img src="images/RelPhotos/rel6.png"S alt="" class="img-thumbnail post-thumb"></a>
+                                        <div class="col-md-5 col-sm-6">
+                                			<span><img src="images/RelPhotos/maternel6.png" alt="" class="img-thumbnail post-thumb"></span>
                                         </div>
-                                    	<div class="col-md-7 col-sm-6" data-appear-animation="fadeInLeft" data-appear-animation-delay="1">
-                                			<h3 class="post-title"><a href="blog-post.html"style="color:forestgreen">Le programme Bilingue</a></h3>
-                                    		<!--<span class="post-time meta-data">Wed 20th July, 14</span>-->
-                                    		<p class="post-excerpt">Grâce à une pédagogie active, dès la petite section de maternelle, les enfants apprennent l’anglais avec plaisir, encadrés par des enseignants certifiés et natifs.</p>
+                                    	<div class="col-md-7 col-sm-6">
+                                			<h3 class="post-title"><a href="blog-post.html" style="color:forestgreen">{{ 'enfant_precoce' | translate }}</a></h3>
+                                    		<!--<span class="post-time meta-data">Sun 17th July, 14</span>-->
+                                    		<p class="post-excerpt">{{ 'enfant_precoce_text' | translate }}</p>
                                        	</div>
                                    	</div>
                                 </li>
-                            	<li class="post-list-item format-standard">
+                                	<li class="post-list-item format-standard">
+                                	<div class="row">
+                                        <div class="col-md-5 col-sm-6" data-appear-animation="fadeInLeft" data-appear-animation-delay="1">
+                                			<span><img src="images/RelPhotos/rel6.png"S alt="" class="img-thumbnail post-thumb"></span>
+                                        </div>
+                                    	<div class="col-md-7 col-sm-6" data-appear-animation="fadeInLeft" data-appear-animation-delay="1">
+                                			<h3 class="post-title"><a href="blog-post.html"style="color:forestgreen">{{ 'enseignement_bilingue' | translate }}</a></h3>
+                                    		<!--<span class="post-time meta-data">Wed 20th July, 14</span>-->
+                                    		<p class="post-excerpt">{{ 'enseignement_bilingue_text' | translate }}</p>
+                                       	</div>
+                                   	</div>
+                                </li>
+                                	<li class="post-list-item format-standard">
                                 	<div class="row">
                                         <div class="col-md-5 col-sm-6">
-                                			<a href="blog-post.html" class="media-box"><img src="images/RelPhotos/maternel6.png" alt="" class="img-thumbnail post-thumb"></a>
+                                			<span><img src="images/homeSlide/3.JPG" alt="" class="img-thumbnail post-thumb"></span>
                                         </div>
                                     	<div class="col-md-7 col-sm-6">
-                                			<h3 class="post-title"><a href="blog-post.html" style="color:forestgreen">L'enfant précoce</a></h3>
+                                			<h3 class="post-title"><a href="blog-post.html" style="color:forestgreen">{{ 'informatique' | translate }}</a></h3>
                                     		<!--<span class="post-time meta-data">Sun 17th July, 14</span>-->
-                                    		<p class="post-excerpt">Un enfant à haut potentiel ne se résume pas à un QI. C’est notamment, un fonctionnement intellectuel différent et une hypersensibilité exacerbés..</p>
+                                    		<p class="post-excerpt">{{ 'informatique_text' | translate }}</p>
                                        	</div>
                                    	</div>
                                 </li>
                             </ul>
-                            <a href="blog.html" class="btn toblog btn-default pull-right">Visit Blog</a>
                         </div>
                   	</div>
                     <!-- Sidebar -->
                     <div class="col-md-4 sidebar right-sidebar">
                     	<div class="widget sidebar-widget upcoming-events-widget">
-                            <h3 class="title widgettitle" style="color:#4CADC5"><i class="fa fa-calendar"></i> évènements à venir</h3>
+                            <h3 class="title widgettitle" style="color:#4CADC5"><i class="fa fa-calendar"></i> {{ 'evenement_a_venir' | translate }}</h3>
                             <ul class="upcoming-events">
                             	<li data-appear-animation="fadeInRight" data-appear-animation-delay="1">
                                 	<img src="images/img13.jpg" alt="" class="img-thumbnail event-thumb">
                                     <span class="event-date">
-                                    	<span class="day">10</span>
-                                        <span class="monthyear">Mai 2017</span>
+                                    	<span class="day">03</span>
+                                        <span class="monthyear">{{ 'evenement_a_venir_date1' | translate }}</span>
                                    	</span>
                                     <div class="event-excerpt">
-                                        <div class="event-cats meta-data"><a href="event-grid.html">Examen</a></div>
-                                    	<h5 class="event-title"><a href="single-event.html">5ème séquence</a></h5>
-                                    	<p class="event-location">Le 10 Mais 2017 </p>
+                                        <div class="event-cats meta-data"><a href="event-grid.html">{{ 'evenement_a_venir_text1' | translate }}</a></div>
+                                    	<h5 class="event-title"><a href="single-event.html">{{ 'evenement_a_venir_text1_2' | translate }}</a></h5>
+                                    	<p class="event-location">{{ 'evenement_a_venir_date1_2' | translate }} </p>
                                     </div>
                                	</li>
                             	<li data-appear-animation="fadeInRight" data-appear-animation-delay="1">
-                                	<img src="images/img14.jpg" alt="" class="img-thumbnail event-thumb">
+                                	<img src="images/ecole2.gif" alt="" class="img-thumbnail event-thumb">
                                     <span class="event-date">
                                     	<span class="day">20</span>
-                                        <span class="monthyear">Aug, 14</span>
+                                        <span class="monthyear">{{ 'evenement_a_venir_date2' | translate }}</span>
                                    	</span>
                                     <div class="event-excerpt">
-                                        <div class="event-cats meta-data"><a href="event-grid.html">Volunteers</a></div>
-                                    	<h5 class="event-title"><a href="single-event.html">National Volunteer week</a></h5>
-                                    	<p class="event-location"><i class="fa fa-map-marker"></i> Parc Orsay, Batiment Sequoia</p>
+                                        <div class="event-cats meta-data"><a href="event-grid.html">{{ 'evenement_a_venir_text2' | translate }}</a></div>
+                                    	<h5 class="event-title"><a href="single-event.html">{{ 'evenement_a_venir_text2_2' | translate }}</a></h5>
+                                    	<p class="event-location"> {{ 'evenement_a_venir_date2_2' | translate }}</p>
                                     </div>
                                	</li>
                             	<li data-appear-animation="fadeInRight" data-appear-animation-delay="1">
-                                	<img src="images/img15.jpg" alt="" class="img-thumbnail event-thumb">
+                                	<img src="images/ecole2.gif" alt="" class="img-thumbnail event-thumb">
                                     <span class="event-date">
                                     	<span class="day">21</span>
-                                        <span class="monthyear">Aug, 14</span>
+                                        <span class="monthyear">{{ 'evenement_a_venir_date3' | translate }}</span>
                                    	</span>
                                     <div class="event-excerpt">
-                                        <div class="event-cats meta-data"><a href="event-grid.html">Cleanliness</a></div>
-                                    	<h5 class="event-title"><a href="single-event.html">Business cleanup day</a></h5>
-                                    	<p class="event-location"><i class="fa fa-map-marker"></i> Parc Orsay, Batiment Sequoia</p>
-                                    </div>
-                               	</li>
-                            	<li data-appear-animation="fadeInRight" data-appear-animation-delay="1">
-                                	<img src="images/img17.jpg" alt="" class="img-thumbnail event-thumb">
-                                    <span class="event-date">
-                                    	<span class="day">22</span>
-                                        <span class="monthyear">Aug, 2016</span>
-                                   	</span>
-                                    <div class="event-excerpt">
-                                        <div class="event-cats meta-data"><a href="event-grid.html">World</a></div>
-                                    	<h5 class="event-title"><a href="single-event.html">World's park day</a></h5>
-                                    	<p class="event-location"><i class="fa fa-map-marker"></i> Parc Orsay, Batiment Sequoia</p>
+                                        <div class="event-cats meta-data"><a href="event-grid.html">{{ 'evenement_a_venir_text3' | translate }}</a></div>
+                                    	<h5 class="event-title"><a href="single-event.html">{{ 'evenement_a_venir_text3_2' | translate }}</a></h5>
+                                    	<p class="event-location">{{ 'evenement_a_venir_date3_2' | translate }}</p>
                                     </div>
                                	</li>
                             </ul>
                             <div class="upcoming-events-footer">
                             	<hr class="sm">
-                                <a href="events.html">See all events</a>
                             </div>
                         </div>
                     </div>
@@ -496,106 +499,85 @@
           	</div>
         </div>
    	</div>
-    <!-- Our Partners -->
-  <!--  <div class="our-partners">
-    	<div class="container">
-        	<h2 class="title"><small>Mission</small>Partners</h2>
-        	<div class="row">
-            	<div class="col-md-3">
-                	<p class="margin-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem.</p>
-                </div>
-            	<div class="col-md-9">
-                	<ul class="partner-logos">
-                    	<li data-appear-animation="fadeInDown" data-appear-animation-delay="10"><img src="images/homeSlide/1.JPG"  width="30%" alt=""></li>
-                    	<li data-appear-animation="fadeInDown" data-appear-animation-delay="200"><img src="images/homeSlide/2.JPG" width="30%" alt=""></li>
-                    	<li data-appear-animation="fadeInDown" data-appear-animation-delay="400"><img src="images/homeSlide/3.JPG"  width="30%" alt=""></li>
-                    	<li data-appear-animation="fadeInDown" data-appear-animation-delay="600"><img src="images/homeSlide/4.JPG"  width="30%" alt=""></li>
-                    	<li data-appear-animation="fadeInDown" data-appear-animation-delay="800"><img src="images/homeSlide/5.JPG"  width="30%" alt=""></li>
-                    </ul>
-                </div>
-          	</div>
-       	</div>-->
+
     </div>
     <!-- Start Featured Projects -->
     <div class="featured-projects">
     	<div class="container">
-            <span  class="btn toblog btn-default pull-right">Activités en Salle Informatique</span>
-        	<h2><small><i style="color:forestgreen">Technologie de l'Information et la Comunication</i></small> TIC</h2>
         	<div class="row"> 
             	<div class="col-md-4 col-sm-4 format-standard">
-                	<a href="single-project.html" class="featured-project-block media-box">
+                	<span class="featured-project-block">
                     	<img src="images/homeSlide/5.JPG" alt="" class="featured-image">
                         <span class="project-overlay">
-                        	<span class="project-title">Life of the whales</span>
-                        	<span class="project-cat">Oceans</span>
+                        	<span class="project-title">{{ 'text_image_accueil_bas1' | translate }}</span>
+                        	<span class="project-cat">Réliance</span>
                         </span>
-                    </a>
+                    </span>
                 </div>
             	<div class="col-md-4 col-sm-4 format-standard">
-                	<a href="single-project.html" class="featured-project-block media-box">
-                    	<img src="images/homeSlide/3.JPG" alt="" class="featured-image">
+                	<span class="featured-project-block">
+                    	<img src="images/RelPhotos/rel10.png" alt="" class="featured-image">
                         <span class="project-overlay">
-                        	<span class="project-title">We will miss them</span>
-                        	<span class="project-cat">Forests</span>
+                        	<span class="project-title">{{ 'text_image_accueil_bas2' | translate }}</span>
+                        	<span class="project-cat">Réliance</span>
                         </span>
-                    </a>
+                    </span>
                 </div>
             	<div class="col-md-4 col-sm-4 format-standard">
-                	<a href="single-project.html" class="featured-project-block media-box">
-                    	<img src="images/homeSlide/4.JPG" alt="" class="featured">
+                	<span class="featured-project-block">
+                    	<img src="images/recreation7.png" alt="" class="featured">
                         <span class="project-overlay">
-                        	<span class="project-title">How to feed the world</span>
-                        	<span class="project-cat">Food</span>
+                        	<span class="project-title">{{ 'text_image_accueil_bas3' | translate }}</span>
+                        	<span class="project-cat">Réliance</span>
                         </span>
-                    </a>
+                    </span>
                 </div>
             </div>
         </div>
     </div>
+    
+    
+</br></br></br></br></br>
+
     <!-- End Featured Projects -->
     <!-- Start Footer -->
-    <footer class="site-footer site-top-footer">
+    <footer class="site-footer site-top-footer" style="text-align:center;">
     	<div class="container">
         	<div class="row">
             	<div class="col-md-3 col-sm-6 footer-widget widget text_widget">
-                	<h4 class="widgettitle">Meaning of Gaea</h4>
-                    <p>The name Gaea is a Greek baby name. In Greek the meaning of the name Gaea is: The earth. Mythological womanly personification of the earth and mother of the Titans.</p>
+                	<h4 style="color:#fff;">{{ 'contact_localisation1' | translate }} :</h4>
+                    <p>Douala - Cameroun</p>
+                    <p>{{ 'contact_localisation2' | translate }}</p>
                 </div>
             	<div class="col-md-3 col-sm-6 footer-widget widget instafeed_widget">
-                	<h4 class="widgettitle">Instagram Gallery</h4>
-                    <ul id="insta-widget" class="clearfix"></ul>
+                	<h4 style="color:#fff;">{{ 'contact_boite_postale' | translate }}</h4>
+                    <p>{{ 'contact_boite_postale1' | translate }} </p>
+                    <p>Douala - Cameroun</p>
                 </div>
             	<div class="col-md-3 col-sm-6 footer-widget widget twitter_widget">
-                	<h4 class="widgettitle">Twitter Feeds</h4>
-                    <div class="twitter-widget" data-tweets-count="1"></div>
+                	<h4 style="color:#fff;">{{ 'contact_telephone' | translate }}</h4>
+                    <p>{{ 'contact_telephone1' | translate }}</p>
+                    <p>{{ 'contact_telephone2' | translate }}</p>
+                    <p>{{ 'contact_telephone3' | translate }}</p>
                 </div>
             	<div class="col-md-3 col-sm-6 footer-widget widget text_widget">
-                	<h4 class="widgettitle">Our Location</h4>
-                    <p>2500 CityWest Blvd, Suite 300<br>Houston, Texas, 77042</p>
-					<p><strong>Contact</strong><br><a href="mailto:help@gaea.org">help@gaea.org</a><br>1 (888) 411-8111</p>
+                	<h4 style="color:#fff;">{{ 'contact_email' | translate }}:</h4>
+                    <p>mail@gmail.com</p>
                 </div>
             </div>
         </div>
     </footer>
-    <footer class="site-footer site-bottom-footer">
+    <footer class="site-footer site-bottom-footer" style="text-align:center;">
     	<div class="container">
         	<div class="row">
-            	<div class="col-md-4 col-sm-4">
-                	<p>&copy; 2014 Gaea - Environment Template</p>
+            	<div class="col-md-12 col-sm-12">
+                	<p>&copy; {{ 'dev1' | translate }} MEKE Béranger | mekebranger@yahoo.fr | (+237) 670 06 38 58 | {{ 'dev2' | translate }}</p>
                 </div>
-            	<div class="col-md-8 col-sm-8">
-                	<ul class="footer-nav">
-                    	<li><a href="index.html">Home</a></li>
-                    	<li><a href="about.html">About</a></li>
-                    	<li><a href="contact.html">Contact</a></li>
-                    	<li><a href="donate.html">Donate</a></li>
-                    </ul>
-                </div>
+            	
             </div>
         </div>
     </footer>
-    <!-- End Footer -->
-  	<a id="back-to-top"><i class="fa fa-angle-double-up"></i></a> 
+    <!-- End Footer --> 
 </div>
 <!--<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>--> <!-- Jquery Library Call -->
 <script src="vendor/prettyphoto/js/prettyphoto.js"></script> <!-- PrettyPhoto Plugin -->

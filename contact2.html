@@ -62,7 +62,7 @@
         
         
        
-            <div class="row" style="margin-left:0%;margin-right:0%;margin-top:0.5%"> 
+                <div class="row" style="margin-left:0%;margin-right:0%;margin-top:0.5%"> 
                 <div class="col-md-4 col-sm-4" style="background:#4CADC5;text-align:center; padding-top:1%;padding-bottom:1%;color:#fff;font-size:120%; border-radius:5px 0px 0px 0px;">
                     <b>
                        <i>{{'statique_title' | translate}}</i> 
@@ -72,13 +72,12 @@
                         <marquee scrollamount="4" class="col-md-12 col-sm-12" style="background:#fff;text-align:center; width:100%;color:green;border-radius:20px; border:3px solid #4CADC5;font-size:120%;">{{'message' | translate}}</marquee>        
                 </div>
                 <div class="col-md-4 col-sm-4" style="background:#4CADC5;text-align:right; padding-top:1%;padding-bottom:1%; border-radius:0px 5px 0px 0px;">
-                    <span style="padding-right:3%;color:#fff;font-size:100%">{{'langue' | translate}}  : </span>
-                        <a href="#" ng-click="changeLanguage('en')">
-                            <img src="images/drapeau/angl.png" width="7%">
+                        <a href="#" ng-click="changeLanguage('en')" style="padding-right:3%;color:#fff;font-size:100%;text-decoration:none;">English  : 
+                         &nbsp;   <img src="images/drapeau/angl.png" width="7%">
                         </a>    
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="#" ng-click="changeLanguage('fr')">
-                            <img src="images/drapeau/fran.png" width="6.5%">
+                        <a href="#" ng-click="changeLanguage('fr')" style="padding-right:3%;color:#fff;font-size:100%;text-decoration:none;">Français  :
+                            &nbsp;<img src="images/drapeau/fran.png" width="6.5%">
                         </a>
                 </div>
             
@@ -103,24 +102,23 @@
                     </span>
              	</h1>
                 
-            <!-- Main Navigation MENU-->
+     	<!-- Main Navigation MENU-->
               	<nav class="main-navigation">
                   	<ul class="sf-menu">
                         <li><a href="index.html">{{ 'home' | translate }}</a></li>
       					<li><a href="projet_ecole.html">{{ 'institution' | translate }}</a></li>
-                          <li><a href="events.html">{{ 'school' | translate }}</a>
+                          <li><a href="">{{ 'school' | translate }}</a>
                             <ul>
-                                <li><a href="events-grid.html">{{ 'cycle_school' | translate }}</a>
+                                <li><a href="">{{ 'cycle_school' | translate }}</a>
                                     <ul>
                                         <li><a href="maternelle.html">{{ 'nursly' | translate }}</a></li>
                                         <li><a href="primaire.html">{{ 'primary' | translate }}</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="vie-ecole.html">{{ 'school_life' | translate }}</a></li>
-                                <li><a href="events-calendar.html">{{ 'reglement_interieur' | translate }}</a></li>
+                                <li><a href="">{{ 'reglement_interieur' | translate }}</a></li>
                                 <li><a href="resultats-examen.html">{{ 'resultats_examens' | translate }}</a></li>
-                                <li><a href="events-grid-sidebar.html">{{ 'parents_parlent' | translate }}</a></li>
-                                <li><a href="events-grid-sidebar.html">{{ 'association' | translate }}</a></li>
+                                <li><a href="activite-extra-scolaire.html">{{ 'activites_extra_scolaires' | translate }}</a></li>
+                                <li><a href="">{{ 'association' | translate }}</a></li>
                             </ul>
                         </li>
                          <li><a href="admission.html">{{ 'admission' | translate }}</a></li>
@@ -133,6 +131,7 @@
         </div>
         
 	</header>
+        
         
 	<!-- End Site Header -->
     <!-- Start Hero Slider -->
@@ -155,7 +154,7 @@
                         <div class="col-md-2">
                         </div>
                         <div class="col-md-8" style="color:#4CADC5;font-size:130%;">
-                           <strong>Contact</strong>
+                           <strong>{{ 'contact' | translate }}</strong>
                         </div>
                         <div class="col-md-2">
                     </div>
@@ -190,27 +189,27 @@
                         </div>
                         <div class="spacer-20"></div>
                         </br></br></br></br>
-                        <h2>Contactez-nous</h2>
+                        <h2>{{ 'contact_formulaire_titre' | translate }}</h2>
                         <div class="row">
                             <form method="post" id="contactform" name="contactform" class="contact-form clearfix">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" id="name" name="name"  class="form-control input-lg" placeholder="Votre nom*">
+                                        <input type="text" id="name" name="name"  class="form-control input-lg" placeholder="{{ 'contact_formulaire_nom' | translate }}*">
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" id="email" name="email"  class="form-control input-lg" placeholder="Votre email*">
+                                        <input type="email" id="email" name="email"  class="form-control input-lg" placeholder="{{ 'contact_formulaire_email' | translate }}*">
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" id="phone" name="phone" class="form-control input-lg" placeholder="Votre Tél">
+                                        <input type="text" id="phone" name="phone" class="form-control input-lg" placeholder="{{ 'contact_formulaire_tel' | translate }}">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <textarea cols="6" rows="7" id="content2" name="comments" class="form-control input-lg" placeholder="Votre message"></textarea>
+                                        <textarea cols="6" rows="7" id="content2" name="comments" class="form-control input-lg" placeholder="{{ 'contact_formulaire_message' | translate }}"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <input id="send_email" name="submit" type="submit" class="btn btn-primary btn-lg pull-right" value="Envoyer">
+                                    <input id="send_email" name="submit" type="submit" class="btn btn-primary btn-lg pull-right" value="{{ 'contact_formulaire_bouton_envoyer' | translate }}">
                                 </div>
                                 </br>
                             </form>
@@ -246,60 +245,85 @@
                     <!-- Start Sidebar -->
                     <div class="col-md-4 sidebar right-sidebar">
                     	<div class="widget sidebar-widget text_widget"> 
-                        	<h3 class="title"> <img src="images/maker.png" alt="" width="15%"> Localisation</h3>
+                        	<h3 class="title"> <img src="images/maker.png" alt="" width="15%"> {{ 'contact_localisation1' | translate }}</h3>
                             <address>
                             	Douala - Cameroun<br>
-                                Bonabéri ( par "Quatre étages" au lieu dit "barrière Washington" )<br>
+                                {{ 'contact_localisation2' | translate }}<br>
                             </address>
                        	</div>
                         </br>
                     	<div class="widget sidebar-widget text_widget">
-                        	<h3 class="title"><img src="images/BP.png" alt="" width="15%"> Boîte postale</h3>
+                        	<h3 class="title"><img src="images/BP.png" alt="" width="15%"> {{ 'contact_boite_postale' | translate }}</h3>
                             <address>
-                            	BP : <br>
+                            	{{ 'contact_boite_postale1' | translate }} <br>
                                 Douala - Cameroun<br>
                             </address>
                        	</div>
                         </br>
                     	<div class="widget sidebar-widget text_widget">
-                        	<h3 class="title"><img src="images/tel2.png" alt="" width="15%"> Téléphone</h3>
+                        	<h3 class="title"><img src="images/tel2.png" alt="" width="15%"> {{ 'contact_telephone' | translate }}</h3>
                             <address>
-                            	675 68 67 26<br>
-                                697 80 50 36<br>
-                                677 32 28 71
+                            	{{ 'contact_telephone1' | translate }}<br>
+                                {{ 'contact_telephone2' | translate }}<br>
+                                {{ 'contact_telephone3' | translate }}
                             </address>
                        	</div>
                         </br>
                         <div class="widget sidebar-widget text_widget">
-                        	<h3 class="title"><img src="images/email.png" alt="" width="16%"> Email</h3>
+                        	<h3 class="title"><img src="images/email.png" alt="" width="16%"> {{ 'contact_email' | translate }}</h3>
                             <address>
                             	mail@gmail.com<br>
                             </address>
                        	</div>
                     </div>
                 </div>
-            </div>
-       	</div>
-   	</div>
-    
-    
-    
-    
-            
-                
-                   
 
- 
-    </br></br></br></br>
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+ </br></br></br>
+    <div class="row">
+       <h3 class="title" style="color:forestgreen">{{ 'calendrier_titre' | translate }}</h3>
+      
+           <div class="row" style="text-align:center;">
+                <p style="font-size:120%;">{{ 'calendrier_text' | translate }}
+</p
+                    
+</br></br>
+
+<table class="table table-bordered" style="text-align:center; border-bottom:#4CADC5 solid 4px">
+  <thead>
+    <tr>
+      <th style="padding-bottom:2%;background:#4CADC5;color:#fff;">{{ 'calendrier_periode' | translate }}</th>
+      <th style="text-align:center;background:#4CADC5;color:#fff;"><p>{{ 'calendrier_debut' | translate }}</p>{{ 'calendrier_debut1' | translate }}</th>
+      <th style="text-align:center;background:#4CADC5;color:#fff;"><p>{{ 'Reprise' | translate }}</p>{{ 'calendrier_reprise1' | translate }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">{{ 'calendrier_periode1' | translate }}</th>
+      <td colspan="2">{{ 'calendrier_debut2_rentree_scolaire' | translate }}</td>
+    </tr>
+    <tr>
+      <th scope="row" style="background:#EAEACB;">{{ 'calendrier_periode2' | translate }}</th>
+      <td style="background:#EAEACB;">{{ 'calendrier_debut3' | translate }}</td>
+      <td style="background:#EAEACB;">{{ 'calendrier_reprise2' | translate }}</td>
+    </tr>
+    <tr>
+      <th scope="row">{{ 'calendrier_periode3' | translate }}</th>
+      <td>{{ 'calendrier_debut4' | translate }}</td>
+      <td>{{ 'calendrier_reprise3' | translate }}</td>
+    </tr>
+    <tr>
+      <th scope="row" style="background:#EAEACB;">{{ 'calendrier_periode4' | translate }}</th>
+      <td colspan="2" style="background:#EAEACB;">{{ 'calendrier_debut_gde_vacances' | translate }}</td>
+    </tr>
+  </tbody>
+</table>
+</br></br></br>
+
+
+
+</br></br>
 
     <!-- End Featured Projects -->
     <!-- Start Footer -->
@@ -307,21 +331,24 @@
     	<div class="container">
         	<div class="row">
             	<div class="col-md-3 col-sm-6 footer-widget widget text_widget">
-                	<h4 class="widgettitle">Meaning of Gaea</h4>
-                    <p>The name Gaea is a Greek baby name. In Greek the meaning of the name Gaea is: The earth. Mythological womanly personification of the earth and mother of the Titans.</p>
+                	<h4 style="color:#fff;">{{ 'contact_localisation1' | translate }} :</h4>
+                    <p>Douala - Cameroun</p>
+                    <p>{{ 'contact_localisation2' | translate }}</p>
                 </div>
             	<div class="col-md-3 col-sm-6 footer-widget widget instafeed_widget">
-                	<h4 class="widgettitle">Instagram Gallery</h4>
-                    <ul id="insta-widget" class="clearfix"></ul>
+                	<h4 style="color:#fff;">{{ 'contact_boite_postale' | translate }}</h4>
+                    <p>{{ 'contact_boite_postale1' | translate }} </p>
+                    <p>Douala - Cameroun</p>
                 </div>
             	<div class="col-md-3 col-sm-6 footer-widget widget twitter_widget">
-                	<h4 class="widgettitle">Twitter Feeds</h4>
-                    <div class="twitter-widget" data-tweets-count="1"></div>
+                	<h4 style="color:#fff;">{{ 'contact_telephone' | translate }}</h4>
+                    <p>{{ 'contact_telephone1' | translate }}</p>
+                    <p>{{ 'contact_telephone2' | translate }}</p>
+                    <p>{{ 'contact_telephone3' | translate }}</p>
                 </div>
             	<div class="col-md-3 col-sm-6 footer-widget widget text_widget">
-                	<h4 class="widgettitle">Our Location</h4>
-                    <p>2500 CityWest Blvd, Suite 300<br>Houston, Texas, 77042</p>
-					<p><strong>Contact</strong><br><a href="mailto:help@gaea.org">help@gaea.org</a><br>1 (888) 411-8111</p>
+                	<h4 style="color:#fff;">{{ 'contact_email' | translate }}:</h4>
+                    <p>mail@gmail.com</p>
                 </div>
             </div>
         </div>
@@ -329,22 +356,24 @@
     <footer class="site-footer site-bottom-footer">
     	<div class="container">
         	<div class="row">
-            	<div class="col-md-4 col-sm-4">
-                	<p>&copy; 2014 Gaea - Environment Template</p>
+            	<div class="col-md-12 col-sm-12">
+                	<p>&copy; {{ 'dev1' | translate }} MEKE Béranger | mekebranger@yahoo.fr | (+237) 670 06 38 58 | {{ 'dev2' | translate }}</p>
                 </div>
-            	<div class="col-md-8 col-sm-8">
-                	<ul class="footer-nav">
-                    	<li><a href="index.html">Home</a></li>
-                    	<li><a href="about.html">About</a></li>
-                    	<li><a href="contact.html">Contact</a></li>
-                    	<li><a href="donate.html">Donate</a></li>
-                    </ul>
-                </div>
+            	
             </div>
         </div>
     </footer>
     <!-- End Footer -->
-  	<a id="back-to-top"><i class="fa fa-angle-double-up"></i></a> 
+
+
+
+
+
+            </div>
+       	</div>
+   	</div>
+    
+     
 </div>
 <!--<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>--> <!-- Jquery Library Call -->
 <script src="vendor/prettyphoto/js/prettyphoto.js"></script> <!-- PrettyPhoto Plugin -->

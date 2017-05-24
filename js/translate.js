@@ -12,7 +12,7 @@ app.config(function($translateProvider) {
       
     statique_title:'BILINGUAL SCHOOL COMPLEX',  
      
-    message:'Official dates of the exams at the end of the school year: Entrance examination in the 6th year on 16 / 05 / 2017',  
+    message:'The activities related to the closing of the school year 2016 - 2017 at the Complexe Scolaire LA RELIANCE EDUCATIVE will take place on 03 June 2017',  
       
     langue: 'langue',
     
@@ -25,7 +25,7 @@ app.config(function($translateProvider) {
             educatif_project:'Educatif project',    
     school: 'SCHOOL LIFE',
         /*sous menu-school*/
-            cycle_school:'Trainning cycle',
+            cycle_school:'Education cycle',
                     nursly:'Nursery',
                     primary:'Primary',
             pedagogy:'Pedagogy',
@@ -56,7 +56,8 @@ app.config(function($translateProvider) {
       
      
       
-    /************** PAGE  ACCUEIL  ******************/
+    /************** DEBUT PAGE  ACCUEIL  ******************/
+     
       presentation:'Presentation',
       complexe_scolaire_maj:'BILINGUAL SCHOOL COMPLEX',
       complexe_scolaire_minus:'bilingual school complex',
@@ -79,9 +80,43 @@ app.config(function($translateProvider) {
     
       texte8:'If you are looking for a private school for your child to learn in the best conditions, in the city of Douala and in particular Bonabéri, please call us at 675 68 67 26/697 80 50 36/677 32 28 71.',
       
+      apprendre_grandir:'Learning is growing',
+      
+      enfant_precoce:'The Early Child',
+      enfant_precoce_text:'A child with high potential is more than an IQ. It is in particular, a different intellectual functioning and hypersensitivity exacerbated.',
+      
+      enseignement_bilingue:'A bilingual education framework',
+      enseignement_bilingue_text:'Grace to active pedagogy, from the nursery school to the class 6, children learn English and French with pleasure, supervised by certified and native teachers.',
+      
+      informatique:'Computer science at the heart of education',
+      informatique_text:'ICT is today a major and unavoidable axis of development for all nations. LA RELIANCE EDUCATIVE School Complex places them at the heart of its educational system.',
+      
+      text_image_accueil_bas1:'PUPILS IN COMPUTER LAB',
+      text_image_accueil_bas2:'PUPILS IN CLASSROOM',
+      text_image_accueil_bas3:'PUPILS IN BREAK',
+ 
+      evenement_a_venir:'Events to come',
+      
+      evenement_a_venir_date1:'JUNE 2017',
+      evenement_a_venir_text1:'ACTIVITIES',
+      evenement_a_venir_text1_2:'End-of-school activities',
+      evenement_a_venir_date1_2:'On 03 June 2017',
+      
+      evenement_a_venir_date2:'JUNE 2017',
+      evenement_a_venir_text2:'EXAMINATION',
+      evenement_a_venir_text2_2:'Written examination by the CEP',
+      evenement_a_venir_date2_2:'Le ... Juin 2017',
+      
+      evenement_a_venir_date3:'JUIN 2017',
+      evenement_a_venir_text3:'EXAMINATION',
+      evenement_a_venir_text3_2:'Written examination by the FSLC',
+      evenement_a_venir_date3_2:'Le ... Juin 2017',
+      
+     /************** FIN PAGE  ACCUEIL  ******************/
       
       
-    
+      
+      
       
       /************* DEBUT PAGE  RESULTAT AUX EXAMEN  ******************/
         cinq_premier:'The five first of each class for the 5th sequence',
@@ -203,7 +238,7 @@ app.config(function($translateProvider) {
       
       maternelle_text1:'It is not necessary to be bilingual to integrate',
       maternelle_text2_gras:'bilingual private nursery school',
-      maternelle_text3:'just want to become one.',
+      maternelle_text3:'Just want to become one.',
       
       maternelle_text4:'Children are welcomed from 2 years in reduced numbers (18 per class approx.).',
       maternelle_text5:'Educational supervision includes: a principal, high-level bilingual teachers, and qualified nursery assistants.',
@@ -267,6 +302,87 @@ app.config(function($translateProvider) {
       
        /************** FIN PAGE  PRIMAIRE  ******************/
       
+      
+      
+      
+       /************** DEBUT CALENDRIER ANNEE SCOLAIRE ******************/
+      
+      calendrier_titre:'School calendar of the year 2016 - 2017',
+      calendrier_text:'LA RELIANCE EDUCATIVE school complex follows the official school calendar of basic education in Cameroon.',
+      
+      calendrier_periode:'Period',
+      calendrier_periode1:'Back to School',
+      calendrier_periode2:'Christmas holidays',
+      calendrier_periode3:'Easter holidays',
+      calendrier_periode4:'Summer holidays',
+      
+      calendrier_debut:'beginning',
+      calendrier_debut1:'(At 3:30 pm)',
+      calendrier_debut2_rentree_scolaire:'Monday, September 05, 2016 at 7:30 am',
+      calendrier_debut3:'Friday, December 23, 2016',
+      calendrier_debut4:'Friday, March 31, 2017 at 3:30 pm',
+      calendrier_debut_gde_vacances:'Friday, July 28, 2017 at 15:30 min',
+      
+      calendrier_reprise:'Reprise',
+      calendrier_reprise1:'(At 7.30 am)',
+      calendrier_reprise2:'Monday 09 January 2017',
+      calendrier_reprise3:'Monday, April 17, 2017 at 7:30 am',
+      
+       /************** FIN CALENDRIER  ********************/
+      
+      
+      
+      
+       /************** DEBUT PAGE CONTACT  ********************/
+      
+       contact_titre:'Contact',
+      
+       contact_localisation1:'Location',
+       contact_localisation2:'Douala - Cameroun',
+       contact_localisation2:'Bonabéri (by "Quatres étages" at the place called "Barrière Washington")',
+      
+       contact_boite_postale:'Post box',
+       contact_boite_postale1:'BP :',
+       contact_boite_postale2:'Douala - Cameroun',
+      
+       contact_telephone:'Phone',
+       contact_telephone1:'675 68 67 26',
+       contact_telephone2:'697 80 50 36',
+       contact_telephone3:'677 32 28 71',
+      
+       contact_email:'E-mail',
+       contact_email1:'mail@gmail.com',
+      
+       contact_formulaire_titre:'Contact Us',
+       contact_formulaire_nom:'Your name',
+       contact_formulaire_tel:'Your Phone',
+       contact_formulaire_email:'Your email',
+       contact_formulaire_message:'Your message',
+       contact_formulaire_bouton_envoyer:'Send',
+      
+       /************** FIN PAGE CONTACT  ********************/
+      
+      
+      
+      
+      
+       /************** DEBUT PAGE ACTIVITÉ EXTRA-SCOLAIRE  ********************/
+      
+      activite_extra_scolaire_titre:'Extra-curricular activities',
+      activite_extra_scolaire_text:'Celebration of World Oral Health Day at LA RELIANCE EDUCATIVE school complex.',
+      activite_extra_scolaire_nos_plus:'Our more',
+      
+       /************** FIN PAGE ACTIVITÉ EXTRA-SCOLAIR  ********************/
+      
+      
+      
+      
+      
+      /************** DEBUT DEVELOPPEUR  ********************/ 
+        dev1:'Develop by',
+        dev2:'All Rights Reserved',
+       /************** FIN DEVELOPPEUR  ********************/
+      
    
   })
   
@@ -290,7 +406,7 @@ app.config(function($translateProvider) {
       
     statique_title:'COMPLEXE SCOLAIRE BILINGUE',  
     
-    message:'Dates officielles des examens de fin d\'année scolaire : Concours d\'entrée en 6ème le 16 / 05 / 2017',  
+    message:'Les activités relatives à la cloture de l\'année scolaire 2016 - 2017 au Complexe Scolaire LA RELIANCE EDUCATIVE auront lieu le 03 Juin 2017',  
       
     langue: 'language',
       
@@ -303,7 +419,7 @@ app.config(function($translateProvider) {
             educatif_project:'Projet éducatif', 
     school: 'VIE DE L\'ECOLE',
             /*sous menu-school*/
-            cycle_school:'Cycles de formation',
+            cycle_school:'Cycles scolaire',
                     nursly:'Maternelle',
                     primary:'Primaire',
             pedagogy:'Pédagogie',
@@ -336,7 +452,8 @@ app.config(function($translateProvider) {
       
       
       
-     /************** PAGE  ACCUEIL  ******************/
+     /************** DEBUT PAGE  ACCUEIL  ******************/
+     
       presentation:'Présentation',
       complexe_scolaire_maj:'COMPLEXE SCOLAIRE BILINGUE',
       complexe_scolaire_minus:'complexe scolaire bilingue',
@@ -359,6 +476,39 @@ app.config(function($translateProvider) {
     
       texte8:'Si vous recherchez pour votre enfant un établissement privé d’enseignement où il pourra apprendre dans les meilleures conditions, dans la ville de Douala et notamment à Bonabéri, n\'hésitez pas à nous appeler au 675 68 67 26 / 697 80 50 36 / 677 32 28 71.',
       
+      apprendre_grandir:'Apprendre, c\'est grandir',
+      
+      enfant_precoce:'L\'enfant précoce',
+      enfant_precoce_text:'Un enfant à haut potentiel ne se résume pas à un QI. C’est notamment, un fonctionnement intellectuel différent et une hypersensibilité exacerbés.',
+      
+      enseignement_bilingue:'Un cadre d\'enseignement bilingue',
+      enseignement_bilingue_text:'Grâce à une pédagogie active, de la petite section de maternelle au CM2, les enfants apprennent l’anglais et le français avec plaisir, encadrés par des enseignants certifiés et natifs.',
+      
+      informatique:'L\'informatique au coeur de l\'éducation',
+      informatique_text:'Les TIC constituent aujourd\'hui un axe majeur et incontournable de développement pour toutes les nations. Le Complexe Scolaire LA RELIANCE EDUCATIVE les placent au coeur de son système éducatif.',
+      
+      text_image_accueil_bas1:'ELÈVES EN SALLE INFORMATIQUE',
+      text_image_accueil_bas2:'ELÈVES EN SALLE DE COURS',
+      text_image_accueil_bas3:'ELÈVES EN RÉCRÉATION',
+ 
+      evenement_a_venir:'évènements à venir',
+      
+      evenement_a_venir_date1:'JUIN 2017',
+      evenement_a_venir_text1:'ACTIVITÉS',
+      evenement_a_venir_text1_2:'Activités de fin d\'année scolaire',
+      evenement_a_venir_date1_2:'Le 03 Juin 2017',
+      
+      evenement_a_venir_date2:'JUIN 2017',
+      evenement_a_venir_text2:'EXAMEN',
+      evenement_a_venir_text2_2:'Examen écrit du CEP',
+      evenement_a_venir_date2_2:'Le ... Juin 2017',
+      
+      evenement_a_venir_date3:'JUIN 2017',
+      evenement_a_venir_text3:'EXAMEN',
+      evenement_a_venir_text3_2:'Examen écrit du FSLC',
+      evenement_a_venir_date3_2:'Le ... Juin 2017',
+      
+      /************** FIN PAGE  ACCUEIL  ******************/
       
       
       
@@ -546,7 +696,89 @@ app.config(function($translateProvider) {
         primaire_horaire2:'mercredi',
         primaire_horaire3:'de 7h30 à 12h30.',
       
-       /************** FIN PAGE  PRIMAIRE  ******************/
+       /************** FIN PAGE  PRIMAIRE ANNEE SCOLAIRE ******************/
+      
+      
+      
+      
+      
+       /************** DEBUT CALENDRIER ANNEE SCOLAIRE ******************/
+      
+      calendrier_titre:'Calendrier scolaire de l\'année 2016 - 2017',
+      calendrier_text:'Le complexe scolaire LA RELIANCE EDUCATIVE suit le calendrier scolaire officiel de l\'éducation de base au Cameroun.',
+      
+      calendrier_periode:'Période',
+      calendrier_periode1:'Rentrée scolaire',
+      calendrier_periode2:'Vacances de Noël',
+      calendrier_periode3:'Vacances de Pâque',
+      calendrier_periode4:'Grandes vacances',
+      
+      calendrier_debut:'Début',
+      calendrier_debut1:'(A 15h30)',
+      calendrier_debut2_rentree_scolaire:'Le lundi 05 septembre 2016 à 7h30 min',
+      calendrier_debut3:'Vendredi 23 décembre 2016',
+      calendrier_debut4:'Vendredi 31 mars 2017 à 15h30',
+      calendrier_debut_gde_vacances:'Le vendredi 28 juillet 2017 à 15h30 min',
+      
+      calendrier_reprise:'Reprise',
+      calendrier_reprise1:'(A 7h30)',
+      calendrier_reprise2:'Lundi 09 janvier 2017',
+      calendrier_reprise3:'Lundi 17 avril 2017 à 7h30',
+      
+       /************** FIN CALENDRIER  ********************/
+      
+      
+      
+      
+      
+       /************** DEBUT PAGE CONTACT  ********************/
+      
+       contact_titre:'Contact',
+      
+       contact_localisation1:'Localisation',
+       contact_localisation2:'Douala - Cameroun',
+       contact_localisation2:'Bonabéri ( par "Quatre étages" au lieu dit "barrière Washington" )',
+      
+       contact_boite_postale:'Boîte postale',
+       contact_boite_postale1:'BP :',
+       contact_boite_postale2:'Douala - Cameroun',
+      
+       contact_telephone:'Téléphone',
+       contact_telephone1:'675 68 67 26',
+       contact_telephone2:'697 80 50 36',
+       contact_telephone3:'677 32 28 71',
+      
+       contact_email:'Email',
+       contact_email1:'mail@gmail.com',
+      
+       contact_formulaire_titre:'Contactez-nous',
+       contact_formulaire_nom:'Votre nom',
+       contact_formulaire_tel:'Votre Tél',
+       contact_formulaire_email:'Votre email',
+       contact_formulaire_message:'Votre message',
+       contact_formulaire_bouton_envoyer:'Envoyer',
+      
+       /************** FIN PAGE CONTACT  ********************/
+      
+      
+      
+      
+       /************** DEBUT PAGE ACTIVITÉ EXTRA-SCOLAIRE  ********************/
+      
+      activite_extra_scolaire_titre:'Activités extra scolaires',
+      activite_extra_scolaire_text:'Célébration de la journée mondiale de la santé bucco-dentaire au complexe scolaire LA RÉLIANCE EDUCATIVE.',
+      activite_extra_scolaire_nos_plus:'Nos plus',
+      
+       /************** FIN PAGE ACTIVITÉ EXTRA-SCOLAIR  ********************/
+      
+      
+      
+      
+      
+       /************** DEBUT DEVELOPPEUR  ********************/ 
+        dev1:'Développer par',
+        dev2:'Tous les droits sont réservés',
+       /************** FIN DEVELOPPEUR  ********************/
       
   });
   $translateProvider.preferredLanguage('fr');
