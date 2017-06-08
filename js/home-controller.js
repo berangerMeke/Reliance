@@ -2,7 +2,7 @@ var app = angular.module('gaeaApp');
 
 app.controller('homeCtrl', function($scope, $http, $interval, $translate) { 
 
-
+$scope.langue = 'fr';
     
 /* SLIDE ACCUEIL*/
     /*slide 1*/ 
@@ -25,8 +25,8 @@ app.controller('homeCtrl', function($scope, $http, $interval, $translate) {
     
          $scope.changeLanguage = function (langKey) {
             $translate.use(langKey);
+            $scope.langue =  langKey;
           };
-    
     
   
     

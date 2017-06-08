@@ -1,0 +1,7 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/home/beranger/projetReliance/Reliance/vendor/fullcalendar/fullcalendar.js",
+        "/home/beranger/projetReliance/Reliance/Server.js",
+        "/home/beranger/projetReliance/Reliance/vendor/fullcalendar/gcal.js"
+    ]
+}

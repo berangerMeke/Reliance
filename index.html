@@ -355,14 +355,23 @@
                                 <hr class="md"><div class="clearfix"></div>
                                 <!--<a href="#" class="btn btn-lg btn-primary"><i class="fa fa-cloud-download"></i> Download Brochure</a>-->
                             </div>
-                            <div class="col-md-5 col-sm-5" style="text-align:center;">               
-                                <img src="images/RelPhotos/ecole6.gif" width="70%">
-                                </iframe>
+                            <div class="col-md-5 col-sm-5" style="text-align:center;"> 
+                                
+                                <div ng-switch="langue">
+                                    <div ng-switch-when="fr">
+                                        <img src="images/RelPhotos/rentree1.gif" width="70%">
+                                    </div>
+                                    <div ng-switch-when="en">
+                                        <img src="images/RelPhotos/rentree5.gif" width="70%">
+                                    </div>
+                                    <div ng-switch-default>
+                                    </div>
+                                </div>
                                 
                                 </br> </br>
-                                <img src="images/RelPhotos/rel8.png" width="70%">
+                                <img src="images/RelPhotos/maternel10.png" width="70%">
                                 </br> </br>
-                                <img src="images/RelPhotos/rel14.png" width="70%">
+                                <img src="images/RelPhotos/rel10.png" width="70%">
                                
                             </div>
                         </div>
@@ -454,9 +463,9 @@
                             <h3 class="title widgettitle" style="color:#4CADC5"><i class="fa fa-calendar"></i> {{ 'evenement_a_venir' | translate }}</h3>
                             <ul class="upcoming-events">
                             	<li data-appear-animation="fadeInRight" data-appear-animation-delay="1">
-                                	<img src="images/img13.jpg" alt="" class="img-thumbnail event-thumb">
+                                	<img src="images/ecole2.gif" alt="" class="img-thumbnail event-thumb">
                                     <span class="event-date">
-                                    	<span class="day">03</span>
+                                    	<span class="day">...</span>
                                         <span class="monthyear">{{ 'evenement_a_venir_date1' | translate }}</span>
                                    	</span>
                                     <div class="event-excerpt">
@@ -468,7 +477,7 @@
                             	<li data-appear-animation="fadeInRight" data-appear-animation-delay="1">
                                 	<img src="images/ecole2.gif" alt="" class="img-thumbnail event-thumb">
                                     <span class="event-date">
-                                    	<span class="day">20</span>
+                                    	<span class="day">...</span>
                                         <span class="monthyear">{{ 'evenement_a_venir_date2' | translate }}</span>
                                    	</span>
                                     <div class="event-excerpt">
@@ -478,15 +487,27 @@
                                     </div>
                                	</li>
                             	<li data-appear-animation="fadeInRight" data-appear-animation-delay="1">
-                                	<img src="images/ecole2.gif" alt="" class="img-thumbnail event-thumb">
+                                	<img src="images/RelPhotos/inscription3.jpg" alt="" class="img-thumbnail event-thumb">
                                     <span class="event-date">
-                                    	<span class="day">21</span>
+                                    	<span class="day">...</span>
                                         <span class="monthyear">{{ 'evenement_a_venir_date3' | translate }}</span>
                                    	</span>
                                     <div class="event-excerpt">
                                         <div class="event-cats meta-data"><a href="event-grid.html">{{ 'evenement_a_venir_text3' | translate }}</a></div>
                                     	<h5 class="event-title"><a href="single-event.html">{{ 'evenement_a_venir_text3_2' | translate }}</a></h5>
                                     	<p class="event-location">{{ 'evenement_a_venir_date3_2' | translate }}</p>
+                                    </div>
+                               	</li>
+                                	<li data-appear-animation="fadeInRight" data-appear-animation-delay="1">
+                                	<img src="images/RelPhotos/rentre2.jpeg" alt="" class="img-thumbnail event-thumb">
+                                    <span class="event-date">
+                                    	<span class="day">...</span>
+                                        <span class="monthyear">{{ 'evenement_a_venir_date4' | translate }}</span>
+                                   	</span>
+                                    <div class="event-excerpt">
+                                        <div class="event-cats meta-data"><a href="event-grid.html">{{ 'evenement_a_venir_text4' | translate }}</a></div>
+                                    	<h5 class="event-title"><a href="single-event.html">{{ 'evenement_a_venir_text4_2' | translate }}</a></h5>
+                                    	<p class="event-location">{{ 'evenement_a_venir_date4_2' | translate }}</p>
                                     </div>
                                	</li>
                             </ul>
@@ -516,7 +537,7 @@
                 </div>
             	<div class="col-md-4 col-sm-4 format-standard">
                 	<span class="featured-project-block">
-                    	<img src="images/RelPhotos/rel10.png" alt="" class="featured-image">
+                    	<img src="images/activite1.png" alt="" class="featured-image">
                         <span class="project-overlay">
                         	<span class="project-title">{{ 'text_image_accueil_bas2' | translate }}</span>
                         	<span class="project-cat">Réliance</span>
@@ -525,7 +546,7 @@
                 </div>
             	<div class="col-md-4 col-sm-4 format-standard">
                 	<span class="featured-project-block">
-                    	<img src="images/recreation7.png" alt="" class="featured">
+                    	<img src="images/RelPhotos/rel14.png" alt="" class="featured">
                         <span class="project-overlay">
                         	<span class="project-title">{{ 'text_image_accueil_bas3' | translate }}</span>
                         	<span class="project-cat">Réliance</span>

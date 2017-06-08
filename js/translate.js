@@ -12,7 +12,7 @@ app.config(function($translateProvider) {
       
     statique_title:'BILINGUAL SCHOOL COMPLEX',  
      
-    message:'The activities related to the closing of the school year 2016 - 2017 at the Complexe Scolaire LA RELIANCE EDUCATIVE will take place on 03 June 2017',  
+    message:'Registration for the school year 2017 - 2018 starts on ....... 2017',  
       
     langue: 'langue',
     
@@ -92,25 +92,31 @@ app.config(function($translateProvider) {
       informatique_text:'ICT is today a major and unavoidable axis of development for all nations. LA RELIANCE EDUCATIVE School Complex places them at the heart of its educational system.',
       
       text_image_accueil_bas1:'PUPILS IN COMPUTER LAB',
-      text_image_accueil_bas2:'PUPILS IN CLASSROOM',
-      text_image_accueil_bas3:'PUPILS IN BREAK',
+      text_image_accueil_bas2:'EXTRA-CURRICULAR ACTIVITIES',
+      text_image_accueil_bas3:'ASSOCIATION',
  
       evenement_a_venir:'Events to come',
       
       evenement_a_venir_date1:'JUNE 2017',
-      evenement_a_venir_text1:'ACTIVITIES',
-      evenement_a_venir_text1_2:'End-of-school activities',
-      evenement_a_venir_date1_2:'On 03 June 2017',
+      evenement_a_venir_text1:'EXAMENATION',
+      evenement_a_venir_text1_2:'Results of the CEP',
+      evenement_a_venir_date1_2:'The ... July 2017',
       
       evenement_a_venir_date2:'JUNE 2017',
-      evenement_a_venir_text2:'EXAMINATION',
-      evenement_a_venir_text2_2:'Written examination by the CEP',
-      evenement_a_venir_date2_2:'Le ... Juin 2017',
+      evenement_a_venir_text2:'EXAMENATION',
+      evenement_a_venir_text2_2:'Results of the FSLC',
+      evenement_a_venir_date2_2:'The ... July 2017',
       
-      evenement_a_venir_date3:'JUIN 2017',
-      evenement_a_venir_text3:'EXAMINATION',
-      evenement_a_venir_text3_2:'Written examination by the FSLC',
-      evenement_a_venir_date3_2:'Le ... Juin 2017',
+      evenement_a_venir_date3:'JUNE 2017',
+      evenement_a_venir_text3:'REGISTRATION',
+      evenement_a_venir_text3_2:'Start of registration',
+      evenement_a_venir_date3_2:'The ... July 2017',
+ 
+      evenement_a_venir_date4:'SEPTEMBER 2017',
+      evenement_a_venir_text4:'BACK TO SCHOOL',
+      evenement_a_venir_text4_2:'Back to school year 2017 -2018',
+      evenement_a_venir_date4_2:'The ... September 2017',
+      
       
      /************** FIN PAGE  ACCUEIL  ******************/
       
@@ -369,7 +375,7 @@ app.config(function($translateProvider) {
        /************** DEBUT PAGE ACTIVITÉ EXTRA-SCOLAIRE  ********************/
       
       activite_extra_scolaire_titre:'Extra-curricular activities',
-      activite_extra_scolaire_text:'Celebration of World Oral Health Day at LA RELIANCE EDUCATIVE school complex.',
+      activite_extra_scolaire_text:'World Oral Health Day at LA RELIANCE EDUCATIVE school complex.',
       activite_extra_scolaire_nos_plus:'Our more',
       
        /************** FIN PAGE ACTIVITÉ EXTRA-SCOLAIR  ********************/
@@ -406,7 +412,7 @@ app.config(function($translateProvider) {
       
     statique_title:'COMPLEXE SCOLAIRE BILINGUE',  
     
-    message:'Les activités relatives à la cloture de l\'année scolaire 2016 - 2017 au Complexe Scolaire LA RELIANCE EDUCATIVE auront lieu le 03 Juin 2017',  
+    message:'Les inscriptions pour l\'année scolaire 2017 - 2018 débutent le ....... 2017',  
       
     langue: 'language',
       
@@ -488,25 +494,30 @@ app.config(function($translateProvider) {
       informatique_text:'Les TIC constituent aujourd\'hui un axe majeur et incontournable de développement pour toutes les nations. Le Complexe Scolaire LA RELIANCE EDUCATIVE les placent au coeur de son système éducatif.',
       
       text_image_accueil_bas1:'ELÈVES EN SALLE INFORMATIQUE',
-      text_image_accueil_bas2:'ELÈVES EN SALLE DE COURS',
-      text_image_accueil_bas3:'ELÈVES EN RÉCRÉATION',
+      text_image_accueil_bas2:'ACTIVITÉS EXTRA SCOLAIRES',
+      text_image_accueil_bas3:'ASSOCIATION',
  
       evenement_a_venir:'évènements à venir',
       
       evenement_a_venir_date1:'JUIN 2017',
-      evenement_a_venir_text1:'ACTIVITÉS',
-      evenement_a_venir_text1_2:'Activités de fin d\'année scolaire',
-      evenement_a_venir_date1_2:'Le 03 Juin 2017',
+      evenement_a_venir_text1:'EXAMEN',
+      evenement_a_venir_text1_2:'Résultats du CEP',
+      evenement_a_venir_date1_2:'Le ... Juillet 2017',
       
       evenement_a_venir_date2:'JUIN 2017',
       evenement_a_venir_text2:'EXAMEN',
-      evenement_a_venir_text2_2:'Examen écrit du CEP',
-      evenement_a_venir_date2_2:'Le ... Juin 2017',
+      evenement_a_venir_text2_2:'Résultats du FSLC',
+      evenement_a_venir_date2_2:'Le ... Juillet 2017',
       
-      evenement_a_venir_date3:'JUIN 2017',
-      evenement_a_venir_text3:'EXAMEN',
-      evenement_a_venir_text3_2:'Examen écrit du FSLC',
-      evenement_a_venir_date3_2:'Le ... Juin 2017',
+      evenement_a_venir_date3:'JUILLET 2017',
+      evenement_a_venir_text3:'INSCRIPTION',
+      evenement_a_venir_text3_2:'Début des inscriptions',
+      evenement_a_venir_date3_2:'Le ... Juillet 2017',
+ 
+      evenement_a_venir_date4:'SEPTEMBRE 2017',
+      evenement_a_venir_text4:'RENTRÉE SCOLAIRE',
+      evenement_a_venir_text4_2:'Rentrée scolaire 2017 -2018',
+      evenement_a_venir_date4_2:'Le ... Septembre 2017',
       
       /************** FIN PAGE  ACCUEIL  ******************/
       
@@ -766,7 +777,7 @@ app.config(function($translateProvider) {
        /************** DEBUT PAGE ACTIVITÉ EXTRA-SCOLAIRE  ********************/
       
       activite_extra_scolaire_titre:'Activités extra scolaires',
-      activite_extra_scolaire_text:'Célébration de la journée mondiale de la santé bucco-dentaire au complexe scolaire LA RÉLIANCE EDUCATIVE.',
+      activite_extra_scolaire_text:'Journée mondiale de la santé bucco-dentaire au complexe scolaire LA RÉLIANCE EDUCATIVE.',
       activite_extra_scolaire_nos_plus:'Nos plus',
       
        /************** FIN PAGE ACTIVITÉ EXTRA-SCOLAIR  ********************/
